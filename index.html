@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>RWS PT2 - Hypertext</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="media/logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>THE<br>BEST<br>MEMORY ✮</h1>
+            </div>
+            <div class="right-col">
+                <p1>Click Here To Listen</p1>
+                <img src="media/play.png" id="icon">
+            </div>
+            <div class="right">
+                <p2>Scroll Down ✶</p2>
+            </div>
+        </div>
+        
+    </div>
+
+    <audio id="song">
+        <source src="media/song4.mp3" type="audio/mp3">
+    </audio>
+    
+<script>
+    var song = document.getElementById("song");
+    var icon = document.getElementById("icon");
+    
+    icon.onclick = function(){
+        if(song.paused){
+            song.play();
+            icon.src = "media/pause.png";
+        }else{
+            song.pause();
+            icon.src = "media/play.png";
+        }
+    }
+
+</script>    
+
+<div class="memory">
+    <h1>✮ My Best Memory in HSI ✮</h1>
+    <br>
+    <p>One of the most cherished memories I have from my time at HSI is the special bond I developed with my friends.</p>  
+<div class="row">
+    <div class="set1">
+        <img src="media/image1.jpeg">
+        <h3>☆ ★ ✮ ★ ☆</h3>
+    </div>
+    <p>Selecting the best memory was no easy task, considering that a significant portion of our interactions took place online. Unfortunately, our limited opportunities to meet in person made it challenging for me to foster meaningful connections and establish friendships with my peers. I feel incredibly blessed to have had the opportunity to engage in face-to-face learning experiences, even if they occurred every other week, as they played a crucial role in deepening my connection with my friends.</p>
+    <p>Pinpointing the exact moment when I became close to my friends, namely Mikai, Janine, Gwen, and most significantly, Aleesha, is quite difficult. It was a gradual process that unfolded during our on-campus encounters. We shared numerous lunches, collaborated on group projects, and enjoyed moments of laughter together.</p>
+    <p>If I were to recall a cherished memory spent with my friends, it would undoubtedly be the time we stayed late at the library, working on a group project for one of our subjects. Looking back, I never could have imagined becoming so close to any of them, let alone working together comfortably without any worries or discomfort. We shared laughter, brainstormed ideas, ventured out for fun outings, and enjoyed meals together, just like any group of close friends would.</p>
+    <p>What truly makes this memory stand out as my best is the fact that I've always struggled with making friends. Shyness and timidity often held me back from developing new relationships, and the idea of forging connections with others used to frighten me. Although I still have a long way to go in truly knowing my friends and overcoming my shyness, I am hopeful that in the future, things will continue to change for the better.</p>
+    <br>
+    <h1>11-Moniteur</h1>
+    <div class="row">
+    <div class="set2">
+        <img src="media/image4.jpeg">
+        <h3>☆ ★ ✮ ★ ☆</h3>
+</div>
+    <p>As a student and peer of 11 Moniteur, there is a particular memory that will forever stay with me.</p>
+    <p>Ironically, it was during the preparations for the CPAR play that this unforgettable experience unfolded. While I may not have been particularly close to all of my classmates at the time—our relationships perhaps better described as acquaintanceships—I had the opportunity to truly get to know them better. The play served as a catalyst, allowing me to collaborate, brainstorm, and grow closer to my friends. Additionally, I formed connections with classmates I rarely spoke to, shared lunchtime conversations with individuals I used to avoid eye contact with, and ultimately, found myself becoming more open and comfortable within the class.</p>
+    <p>To be honest, everything still feels somewhat new to me. Spending almost half of my junior high school years online heightened my anxiety, especially in such an unfamiliar setting. Adjusting wasn't without its challenges.</p>
+    <p>With that said, I want to express my heartfelt gratitude to my friends, who unknowingly encouraged me to step outside of my comfort zone, even if only for a brief period. I also want to thank my classmates, who showed nothing but kindness and non-judgment, despite the obstacles we faced together. Their welcoming nature made all the difference. Lastly, I extend my appreciation to my teachers, whose kindness, understanding, and exceptional teaching skills greatly contributed to my experience.</p>
+    <p>Reflecting on the months I spent as a grade 11 student at HSI, I am filled with gratitude. Despite the challenges I encountered along the way, I can honestly say that I truly enjoyed my time and cherish the memories created during this chapter of my life.</p>
+    <br>  
+    <h4>I want to express my heartfelt gratitude to my friends, classmates, and teachers. The bond we share and the memories we've created together mean more to me than words can truly convey. I cherish each and every one of you deeply, beyond what anyone can fathom.</h4>
+    <br>
+    <h1>˗ˏˋ ★ ˎˊ˗</h1>
+    <br>
+</body>
+</html>

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Media/home.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+}
+.navbar ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+    margin-left: 5%;
+}
+.left-col h1{
+    font-size: 60px;
+    color: #000000;
+    line-height: 110px;
+    float: left;
+}
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.right-col p1{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.right{
+    float: right;
+    margin-right: 17%;
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+}
+.right p2{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+/*------------- My Gallery -------------*/
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/about.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+}
+.text-box{
+    width: 120%;
+    color: #000000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 30px;
+}
+.memory{
+    width: 100%;
+    background-image: url(Media/about.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.set1{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+    align-items: center;
+}
+.set1 img{
+    width: 35%;
+    border-radius: 10px;
+}
+set1 h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.set2{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+    align-items: center;
+}
+.set2 img{
+    width: 40%;
+    border-radius: 10px;
+}
+set2 h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+h4{
+    font-size: 17px;
+    font-weight: 600;
+}
+
